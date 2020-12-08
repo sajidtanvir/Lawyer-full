@@ -1,0 +1,366 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #F15C2A;
+    border-bottom: 1px solid #F15C2A;
+}
+.banner{
+    background-image: url(../Images/head-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.height{
+    min-height: 90vh;
+    align-items: center;
+    position: relative;
+
+}
+.banner h1{
+    
+    color: #fff;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.icon{
+    
+    color: #ffffffa3;
+    font-size: 30px;
+    position: absolute;
+    left: 73%;
+    top: 75%;
+    transform: translate(-50%, -70%);
+    animation: ani 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes ani{
+    o% {
+        top: 75%;
+    }
+    100%{
+        top: 80%;
+    }
+
+}
+.who-we-are{
+
+}
+.who-we-are h1, .what-we-do h1{
+
+    color: #204f87;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+   
+}
+.who-we-are p{
+    
+    color: #b0b0b1;
+    font-size: 15px;
+}
+.who-we-are span, .attorney span{
+    
+    display: block;
+    background-color: #f05428;
+    width: 0px;
+    height: 5px;
+    border-radius: 9px;
+    transition: .4s all ease-in-out;
+}
+.who-we-are:hover span {
+    width: 50px;
+
+}
+.attorney :hover span{
+    width: 50px;
+
+}
+
+.what-we-do{
+    background-color:#f8f8f8 ;
+    background-image: url(../Images/sub.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 103vh;
+
+}
+.what-we-do h1{
+    
+
+}
+.what-we-do span, .language span, .contact span {
+    display: inline-block;
+    background-color: #f05428;
+    width: 0px;
+    height: 5px;
+    border-radius: 9px;
+    position: absolute;
+    left: 487px;
+    transition: .4s all ease-in-out;
+    bottom: 50px;
+}
+.what-we-do:hover span {
+    width: 50px;
+}
+.language:hover span{
+    width: 50px;
+}
+.contact:hover span{
+    width: 50px;
+}
+
+.we-do {
+    position: relative;
+}
+.we-do::before, .we-do-attor::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 00%;
+    width: 100%;
+    transition: .4s all ease-in-out;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#353889+0,353889+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(53,56,137,0) 0%, rgba(53,56,137,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(53,56,137,0) 0%,rgba(53,56,137,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(53,56,137,0) 0%,rgba(53,56,137,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00353889', endColorstr='#353889',GradientType=0 ); /* IE6-9 */
+
+}
+.we-do:hover::before, .we-do-attor:hover::before{
+    height: 100%;
+
+}
+.txt {
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+.txt h1{
+    
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.we-do:hover .txt{
+    
+    opacity: 1;
+    top: 50%;
+}
+.icon-right{
+
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    transform: translate(-50%, -85%);
+    color: #fff;
+    font-size: 30px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+.we-do:hover .icon-right{
+    opacity: 1;
+    left: 50%;
+}
+.attorney{
+    background-image: url(../Images/attorney.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 1300px;
+   
+}
+.text-sec{
+    margin-top: 70px;
+}
+.attorn{
+    margin-top: 80px
+}
+
+.attorney span{
+    margin-bottom: 10px;
+
+}
+.attorney h1{
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: revert;
+}
+.attorney p{
+
+    color: #929dcf;
+    font-size: 13px;
+}
+.attorney a, .spanish a{
+    text-transform: uppercase;
+font-size: 12px;
+font-weight: bold;
+color: #f15b2a;
+
+}
+.we-do-attor{
+   
+position: relative;
+}
+.txt-attor{
+
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    opacity: 0;
+    transition: .10s all ease-in-out;
+}
+.txt-attor h1{
+
+    font-size: 25px;
+    font-weight: initial;
+}
+.txt-attor h2{
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.we-do-attor:hover .txt-attor {
+    opacity: 1;
+    bottom: 15%;
+
+}
+.language{
+    min-height: 600px;
+
+}
+.langu{
+    
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.language span{
+    
+
+    position: absolute;
+    left: 408px;
+    margin-bottom: 10px;
+}
+.language h1{
+
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #28377e;
+}
+.spanish{
+    
+
+}
+.spanish h2{
+    color: #28377e;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.spanish p{
+
+
+}
+.spanish a{
+
+}
+.contact{
+    background-color: #28377e;
+    text-transform: uppercase;
+    position: relative;
+    min-height: 600px;
+
+}
+.contact span{
+
+    position: absolute;
+    left: 460px;
+    margin: 5px 0px;
+    top: 70px;
+}
+.contact h1{
+    color: #fff;
+    margin: 80px 0px;
+}
+.form-control {
+   
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #4759a7;
+    text-transform: capitalize;
+    outline: none;
+    padding: 0;
+    font-weight: lighter;
+}
+.form-control:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #4759a7;
+}
+.form-control::placeholder{
+    color: #fff;
+    font-weight: bold;
+}
+.btn {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 0;
+    padding: 10px 50px;
+    background: transparent
+    borde
+
+}
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #f45b2a;
+    border: 0px solid #f45b2a;
+}
+.footer{
+    background-color: #0c1234;
+    min-height: 120px;
+    position: relative;
+}
+.copyright-text{
+    position: absolute;
+    top: 55px;
+}
+.copyright-text i{
+color: #616ca8;
+font-size: 14px;
+text-transform: capitalize;
+position: relative;
+
+}
+.footer-icon{
+
+    font-size: 12px;
+    position: absolute;
+    top: 55px;
+    
+}
+.footer-icon i{
+    color: #b1b8dd;
+    font-size: 15px;
+    margin: 0px 7px;
+}
